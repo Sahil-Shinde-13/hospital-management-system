@@ -1,5 +1,10 @@
 package model;
 
-public enum PatientStatus {
 
+
+public enum PatientStatus {
+    ADMITTED,
+    DISCHARGED,
+    UNDER_TREATMENT,
+    CANCELLED
 }
